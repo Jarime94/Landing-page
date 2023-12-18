@@ -121,7 +121,9 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-right: 30px;
+    margin: 12px;
 }
+
 .header-nav img {
     width: 40px;
     height: 40px;
@@ -146,16 +148,29 @@ h3 {
     background-color: white;
 }
 
-.button {
+.wrap-gallery-section button {
+    background-color: white;
     border: none;
     padding: 0;
-    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.galeria {
+.wrap-gallery-section .galeria {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin: 5px;
     object-fit: cover;
+    margin: 5px;
 }
+
+.sumergida,
+.colinas,
+.bosques,
+.dioramas {
+    border: none;
+}
+
+
